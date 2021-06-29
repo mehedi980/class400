@@ -1,0 +1,193 @@
+
+.lfwf-left{
+    margin-left: 100px;
+}
+.menu-lef{
+    margin-left:400px;
+}
+.img {
+    position: relative;
+    top: -4px;
+}
+
+
+
+/* hero section */
+
+.left{
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+}
+.right{
+    width: 40%;
+    float: right;
+
+}
+.bg-color{
+    background-color: #f9f9ff;
+}
+
+
+/* About section */
+
+.about-left{
+    width: 45%;
+    float: left;
+}
+.img{
+    margin: auto;
+}
+.about-right{
+    width: 45%;
+    float: right;
+}
+.costom-btn{
+    background-color:  #8490ff;
+    color: white;
+}
+
+
+/* view secton */
+
+
+.view{
+    background-color: #8490ff;
+    padding: 40px;
+}
+
+
+/* economy */
+
+
+.round{
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    background-color: #f9f9ff;
+    text-align: center;
+    margin: 10px auto;
+
+}
+.round h1{
+    padding-top: 15px;
+}
+.btn-end a {
+    border: 2px solid #8490ff !important;
+    height: 52px;
+    width: 142px;
+    text-align: center;
+}
+.end {
+     
+    position: relative;
+    top: 5px;
+    color: #8490ff;
+}
+.economi{
+    background-color: #f9f9ff;
+}
+.aa{
+    background-color: #ffffff;
+}
+
+
+/* jason doe */
+
+.face {
+    width: 100px;
+    /* margin-bottom: -37px; */
+    margin-top: -55px;
+    position: relative;
+    right: 55px;
+}
+.jason-doe{
+    margin-top: 130px;
+}
+
+
+/* contact */
+
+.contact{
+    background-color: #f9f9ff;
+}
+.item{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+
+.footer{
+    background-color: #04091e;
+}
+.footer p {
+    position: relative;
+    bottom: -7px;
+    font-size: 20px;
+    
+}
+
+/* responsive CSS */
+@media (max-width: 992px){
+    .menu-lef {
+        margin-left: 0px;
+        font-size: 17px;
+    }
+    .item {
+        text-align: center;
+    }
+    .menu-lef{
+        margin-left:0px;
+    }
+
+}
+@media (max-width:768px){
+    .menu-lef {
+        margin-left: 0px;
+        font-size: 17px;
+    }    
+    .left {
+        width: 50%;
+        float: left;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .costom-btn {
+        margin-bottom: 24px;
+    }
+    .mt-4 {
+        margin-top: 0;
+    }
+    .py-5 {
+        padding-top: 0rem !important;
+        padding-bottom: 0px !important;
+        text-align: center;
+    }
+    .col-md-6 {
+        padding-bottom: 87px;
+    }
+    .mt-5 {
+        margin-top: 0;
+    }
+
+}
+@media (max-width:576px){
+    .img {
+        top: 26px;
+    }
+    .about-right{
+        width: 100%;
+    }
+    .about-left{
+        margin: auto;
+        display: block;
+    }
+    .img {
+        top: 9px;
+        margin: 0 143px;
+    }
+    .view {
+        background-color: #8490ff;
+        padding-top: 56px;
+    }
+}
